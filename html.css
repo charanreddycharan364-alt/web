@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&family=Noto+Sans+Caucasian+Albanian&display=swap');
+body{
+    margin: 0px;
+    color: rgb(229, 14, 17);
+    background-color: rgb(167, 150, 233);
+    
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     background-color: rgb(167, 150, 233);
+}
+.navigation-left{
+    padding-left: 40px;
+}
+.navigation-right{
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans Caucasian Albanian", sans-serif
+} 
+.a-element{
+    padding: 7px;
+    margin: 4px;
+}
+.head{
+    color: black
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+    height: 70vh;
+    padding: 50px;
+    align-items: center;
+}
+.home-left{
+    padding-left: 100px;
+    width: 50vw;
+    text-align: right;
+    font-family: "Noto Sans Caucasian Albanian", sans-serif
+}
+.home-right{
+    padding-left: 50px;
+    width: 50vw;
+    image-rendering: 09;
+
+}
+.img1{
+    width: 320px;
+    height: 320px;
+    border-radius: 100px;
+}
+.head{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service{
+    text-align: center;
+    padding: 50px;
+}
+.ser-h1{
+    color:black;
+    letter-spacing: 6px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: "Maiden Orange", serif;
+}
+.service-sub-cont{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+}
+.service-card{
+    border: 3px solid rgb(151, 242, 118);
+    margin:20px;
+    padding:20px;
+    font-family: "ubantu", sans-serif;
+    font-size: 10px;
+
+
+}
+.contact{
+    text-align: center;
+    
+}
+.contact-info{
+    font-family: "Noto Sans Caucasian Albanian", sans-serif;
+    text-align: center;
+   
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon-img{
+    height: 20px;
+    padding: 20px;
+}
